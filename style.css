@@ -3,3 +3,135 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* headeer styles */
+.header{
+    display: flex;
+    margin: 40px 120px 10px 120px;
+    justify-content: space-between;
+}
+.header-title{
+    color: #3A3A3A;
+}
+.header-nav{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.glass{
+    margin-right: 10px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;   
+    gap: 30px; 
+    margin: 20px 120px;
+}
+.banner-info{
+    width: 50%;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.banner-des{
+    font-weight: 300;
+    font-size: 13px;
+    margin: 10px 0px;
+}
+.primary-button{
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.banner-space{
+    height: 350px;
+    position: relative;
+    width: 350px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.banner-place{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.banner-space img{
+    height: 250px;
+    position: absolute;
+    top: 70px;
+   left: 30px;
+    
+}
+/* logo section styles */
+.all-logo{
+    margin: 10px 120px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* popoular collection */
+.popular-collection, .featured-section{
+    margin: 10px 120px;
+}
+.popular-title{
+    text-align: center;
+}
+
+.collections{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+}
+.collection{
+    /* box-shadow: 10px 10px 8px 10px #888888; */
+    box-shadow: 10px 10px 10px 5px lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.collection img{
+    width: 100%;
+    
+}
+.pop-icon{
+    display: flex;
+    gap: 5px;
+}
+.icons-design{
+    color: #FFE192;
+}
+.pop-des{
+    font-size: 14px;
+    color: #3A3A3A;
+}
+.price{
+    margin: 10px 0px;
+    color: #3A3A3A;
+}
+/* featured products */
+.feature{
+    display: flex;
+    gap: 30px;
+}
